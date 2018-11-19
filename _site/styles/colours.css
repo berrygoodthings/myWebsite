@@ -15,8 +15,3 @@
   /* transition variable to change background colour when you hover over menu items. 150ms linear makes it quick and a constant speed.*/
 	--transition: background-color 150ms linear;
 }
-
-.navbar-default {
-    background-color: var(--pink-light);
-    border-color: #FE929F;
-}

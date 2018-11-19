@@ -1,3 +1,23 @@
 body{
   background-color: var(--main-color)
 }
+
+.navbar-default {
+    background-color: var(--pink-light);
+    border-color: #FE929F;
+    text: font-family: 'Homemade Apple', cursive;
+}
+
+.footer{
+  background-color: var(--pink-light);
+}
+
+img{
+  display:block;
+}
+
+.wrapper{
+  max-width:960px;
+  height=auto;
+  width=auto;
+}
