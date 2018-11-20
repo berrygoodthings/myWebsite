@@ -1,18 +1,18 @@
-
+<!--Navbar code pulled from bootstrap documentation and edited for colour scheme -->
 <div class="container">
   <nav class="navbar navbar-expand-lg navbar-default navbar-light">
     <a class="navbar-brand" href="#" style="font-family: 'Homemade Apple', cursive; px20;">Laura Hutchison</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
+      <span class="navbar-toggler-icon"></span>
+    </button>
 
     <div class="collapse navbar-collapse" id="navbarNavDropdown">
       <ul class="navbar-nav ml-auto">
         {% assign sorted_pages = site.pages | sort:"order" %}
         {% for node in sorted_pages %}
-          <li class="nav-item"><a  class="nav-link" href="/myWebsite{{node.url}}">{{node.title}}</a></li>
+        <li class="nav-item"><a  class="nav-link" href="/myWebsite{{node.url}}">{{node.title}}</a></li>
         {% endfor %}
-        </ul>
+      </ul>
     </div>
   </nav>
 </div>

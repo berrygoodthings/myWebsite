@@ -19,6 +19,16 @@ body{
   background-color: var(--pink-light);
 }
 
+.row{
+  display:flex;
+}
+
+.row-divide {
+  flex: 1;
+  background: var(--secondary-color);
+  border: 1px solid grey;
+}
+
 img {
     max-width: 100%;
     height: auto;
@@ -30,4 +40,14 @@ img {
 .img-responsive {
     margin: auto;
     display: block;
+}
+
+.border-between > [class*='col-']:before {
+   background: #e3e3e3;
+   bottom: 0;
+   content: " ";
+   left: 0;
+   position: absolute;
+   width: 1px;
+   top: 0;
 }

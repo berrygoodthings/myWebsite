@@ -1,9 +1,10 @@
-@import url('https://fonts.googleapis.com/css?family=Alegreya|Homemade+Apple');
+@import url('https://fonts.googleapis.com/css?family=Alegreya|Homemade+Apple|Lora');
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: 'Homemade Apple', cursive;
+  font-family: 'Lora', cursive;
 }
 
 p, a, ul, ol, li{
   font-family: 'Alegreya', serif;
+  font-size: 20px;
 }

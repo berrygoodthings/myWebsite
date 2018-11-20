@@ -13,12 +13,27 @@
 
 /* Facebook */
 .fa-facebook {
+    padding: 11px;
+    background: var(--pink-dark);
+    color: white;
+}
+
+/* Instagram */
+.fa-instagram {
+    padding:11px;
     background: var(--pink-dark);
     color: white;
 }
 
 /* Twitter */
-.fa-instagram {
-    background: var(--pink-dark);
-    color: white;
+.fa-twitter{
+  background: var(--pink-dark);
+  color: white;
+}
+
+/* Spotify */
+.fa-spotify{
+  padding: 11px;
+  background: var(--pink-dark);
+  color: white;
 }
