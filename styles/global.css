@@ -1,3 +1,10 @@
+:root{
+  --main-color: #ECE4E2; /* Bone - a very light, sandy beige, good for main background colour */
+  --secondary-color: #FCD3D1; /* Baby Pink - a light, soft pink, very complementary to the main - just there as backup */
+  --pink-light: #FCDFF3; /* Bubblegum - another light pink, but cooler than baby pink */
+  --pink-dark: #FE929F; /* Ticked Pink - a darker shade of bubblegum - icons and other standout options? */
+}
+
 body{
   background-color: var(--main-color)
 }
