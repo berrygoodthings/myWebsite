@@ -1,36 +1,37 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
- <head>
-   {% include header.html %}
- <meta charset="utf-8">
- <meta name="viewport"
-    content="width=device-width, initial-scale=1, shrink-to-fit=yes">
+<head>
+  {% include header.html %}
+  <meta charset="utf-8">
+  <meta name="viewport"
+  content="width=device-width, initial-scale=1, shrink-to-fit=yes">
 
-    <!-- Basics -->
-    <link rel="stylesheet" href="styles/reset.css">
+  <!-- Basics -->
+  <link rel="stylesheet" href="styles/reset.css">
 
 
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
 
-    <link rel="stylesheet" href="styles/global.css">
+  <!-- my overrides to bootstrap -->
+  <link rel="stylesheet" href="styles/global.css">
 
-    <link rel="stylesheet" href="styles/colours.css">
+  <!-- pretty typography for site -->
+  <link rel="stylesheet" href="styles/typography.css">
 
-    <link rel="stylesheet" href="styles/typography.css">
+  <title>{{page.title}}</title>
 
- <title>{{page.title}}</title>
- </head>
- <body>
- {{content}}
- </body>
+</head>
+<body>
+  {{content}}
+</body>
 </html>
 
 <footer>
-{% include footer.html %}
+  {% include footer.html %}
 </footer>
 
-<!--Javascript - source to be found soon -->
+<!--Javascript to make toggler work -->
 <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
- <script src="https://unpkg.com/popper.js@1.12.6/dist/umd/popper.js" integrity="sha384-fA23ZRQ3G/J53mElWqVJEGJzU0sTs+SvzG8fXVWP+kJQ1lwFAOkcUOysnlKJC33U" crossorigin="anonymous"></script>
- <script src="https://unpkg.com/bootstrap-material-design@4.1.1/dist/js/bootstrap-material-design.js" integrity="sha384-CauSuKpEqAFajSpkdjv3z9t8E7RlpJ1UP0lKM/+NdtSarroVKu069AlsRPKkFBz9" crossorigin="anonymous"></script>
+<script src="https://unpkg.com/popper.js@1.12.6/dist/umd/popper.js" integrity="sha384-fA23ZRQ3G/J53mElWqVJEGJzU0sTs+SvzG8fXVWP+kJQ1lwFAOkcUOysnlKJC33U" crossorigin="anonymous"></script>
+<script src="https://unpkg.com/bootstrap-material-design@4.1.1/dist/js/bootstrap-material-design.js" integrity="sha384-CauSuKpEqAFajSpkdjv3z9t8E7RlpJ1UP0lKM/+NdtSarroVKu069AlsRPKkFBz9" crossorigin="anonymous"></script>

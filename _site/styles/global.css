@@ -1,3 +1,4 @@
+/* colour scheme - small enough to move from it's own colors document */
 :root{
   --main-color: #ECE4E2; /* Bone - a very light, sandy beige, good for main background colour */
   --secondary-color: #FCD3D1; /* Baby Pink - a light, soft pink, very complementary to the main - just there as backup */
@@ -5,49 +6,39 @@
   --pink-dark: #FE929F; /* Ticked Pink - a darker shade of bubblegum - icons and other standout options? */
 }
 
+/* keep it simple with one colour background */
 body{
   background-color: var(--main-color)
 }
 
+/* custom colour scheme for navbar*/
 .navbar-default {
-    background-color: var(--pink-light);
-    border-color: #FE929F;
-    text: font-family: 'Homemade Apple', cursive;
+  background-color: var(--pink-light);
+  border-color: #FE929F;
 }
 
+/* footer matches navbar colours */
 .footer{
   background-color: var(--pink-light);
 }
 
+/* don't want ugly mismatched length columns! */
 .row{
   display:flex;
 }
 
+/* to border the box on index */
 .row-divide {
   flex: 1;
   background: var(--secondary-color);
   border: 1px solid grey;
 }
 
+/* attempts to sort out imgs */
 img {
-    max-width: 100%;
-    height: auto;
-    width: auto\9; /* ie8 */
-    margin:auto;
-    padding:37px;
-
-}
-.img-responsive {
-    margin: auto;
-    display: block;
-}
-
-.border-between > [class*='col-']:before {
-   background: #e3e3e3;
-   bottom: 0;
-   content: " ";
-   left: 0;
-   position: absolute;
-   width: 1px;
-   top: 0;
+  max-width: 100%;
+  height: auto;
+  width: auto\9; /* ie8 */
+  margin:auto;
+  padding:20px;
 }

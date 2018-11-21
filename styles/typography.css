@@ -1,7 +1,10 @@
 @import url('https://fonts.googleapis.com/css?family=Alegreya|Homemade+Apple|Lora');
 
+/* Fonts sourced from Google - Homemade Apple for a whimsical, slightly girly feel */
+/* The other two fonts are easily read, but not particularly harsh and edgy in their appearance either */
+
 h1, h2, h3, h4, h5, h6 {
-  font-family: 'Lora', cursive;
+  font-family: 'Lora', serif;
 }
 
 p, a, ul, ol, li{

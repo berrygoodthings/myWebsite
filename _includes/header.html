@@ -6,11 +6,12 @@
       <span class="navbar-toggler-icon"></span>
     </button>
 
+    <!-- generate links, as well as collapse menu when viewport small -->
     <div class="collapse navbar-collapse" id="navbarNavDropdown">
       <ul class="navbar-nav ml-auto">
         {% assign sorted_pages = site.pages | sort:"order" %}
         {% for node in sorted_pages %}
-        <li class="nav-item"><a  class="nav-link" href="/myWebsite{{node.url}}">{{node.title}}</a></li>
+        <li class="nav-item"><a  class="nav-link" href="myWebsite{{node.url}}">{{node.title}}</a></li>
         {% endfor %}
       </ul>
     </div>
